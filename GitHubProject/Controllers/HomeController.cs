@@ -8,6 +8,10 @@ namespace GitHubProject.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Home->Index
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return View();
